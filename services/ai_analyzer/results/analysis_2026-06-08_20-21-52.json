@@ -1,0 +1,72 @@
+{
+  "market_summary": "Market mood is bullish driven by two big forces: a Chinese buyer-led pump that sent Series 1 gloves +30-40% and dragged up knives/Doppler-tier items, plus a crypto crash (BTC sub-$60k) that historically rotates capital into CS2 skins. The dominant volatility driver, however, is the new souvenir-craft update that crashed collectible souvenir skins by 90-99% (R8 Bone Mask, AWP Asiimov/Viper, Glock Candy Apple, M4A1-S Nitro) — a structural supply shock making souvenir/sticker categories toxic. IEM Cologne Major (Spirit & FUT into Stage 3) supports team-sticker demand but no specific buy-tier sticker appears liquid in the data. Key risk: the knife Doppler 'swings' are largely thin-volume/illiquid wear-variant noise rather than genuine directional moves, so confidence is tempered outside high-volume names.",
+  "top_volatile_skins": [
+    {
+      "market_hash_name": "Glock-18 | Gamma Doppler (Factory New)",
+      "action": "buy",
+      "confidence": 68,
+      "current_vs_range": "near 7d low ($1.87 vs min $1.75 / max $7.44)",
+      "catalyst": "Chinese buyer pump lifting Doppler/Gamma Doppler tier + crypto crash rotating capital into CS2 skins",
+      "reasoning": "Highest-volume (vol=22) genuinely liquid Doppler-family item sitting near its 7d low after a 325% swing. The Chinese pump explicitly targeted Doppler/knife-tier items and gloves; this is a cheap, liquid proxy with clear asymmetric upside and easy exit.",
+      "time_horizon": "short",
+      "potential_roi": 80
+    },
+    {
+      "market_hash_name": "Bowie Knife | Gamma Doppler (Factory New)",
+      "action": "buy",
+      "confidence": 62,
+      "current_vs_range": "near 7d low ($2.22 vs min $2.15 / max $5.45)",
+      "catalyst": "Chinese-led knife pump (gloves +30-40%, secret/Doppler tiers +50%) + crypto rotation into skins",
+      "reasoning": "One of the more liquid knives in the set (vol=21) trading at the bottom of its range. With the pump explicitly hitting knife Doppler tiers, this offers a real entry with decent volume to exit, unlike the ultra-thin (vol<6) Karambit/M9 listings.",
+      "time_horizon": "short",
+      "potential_roi": 60
+    },
+    {
+      "market_hash_name": "Stiletto Knife | Doppler (Factory New)",
+      "action": "buy",
+      "confidence": 60,
+      "current_vs_range": "near 7d low ($4.72 vs min $4.68 / max $20.65)",
+      "catalyst": "Chinese pump on Doppler knives + market-wide rebound (knives reported +30-40% in 2 days)",
+      "reasoning": "Sitting at its 7d low after a 341% swing with relatively healthy liquidity (vol=17). The MrTwister channel explicitly noted knives jumping 30-40%; a near-floor liquid Doppler knife is a clean momentum-buy entry.",
+      "time_horizon": "short",
+      "potential_roi": 70
+    },
+    {
+      "market_hash_name": "Bowie Knife | Doppler (Factory New)",
+      "action": "buy",
+      "confidence": 58,
+      "current_vs_range": "at 7d low ($2.67 vs min $2.67 / max $12.29)",
+      "catalyst": "Chinese buyer pump targeting Doppler knife tier + crypto crash inflows",
+      "reasoning": "Trading exactly at its 7d minimum after a 360% swing with solid volume (vol=17). Strong asymmetric setup — limited downside at the floor, large room to retrace toward range mid given the active knife pump catalyst.",
+      "time_horizon": "short",
+      "potential_roi": 75
+    },
+    {
+      "market_hash_name": "Souvenir AK-47 | Green Laminate (Field-Tested)",
+      "action": "sell",
+      "confidence": 64,
+      "current_vs_range": "near 7d high ($0.35 vs min $0.20 / max $0.35)",
+      "catalyst": "Souvenir-craft update flooded supply and crashed collectible souvenir prices 90-99%",
+      "reasoning": "Souvenir category is structurally impaired by the new craft update that turned scarce souvenirs into mass-produced items (collectors reportedly lost $500k+). This item is at its 7d high — a clear distribution/sell signal before the supply shock fully prices in.",
+      "time_horizon": "short",
+      "potential_roi": -40
+    }
+  ],
+  "volatility_leaders": [
+    {
+      "market_hash_name": "Bayonet | Doppler (Factory New)",
+      "swing_pct": 757.9,
+      "note": "Largest swing in dataset but thin liquidity (vol=23 across wear variants); price sits at floor ($4.09 vs $35.09 max) — Doppler pump noise rather than a clean directional signal."
+    },
+    {
+      "market_hash_name": "M9 Bayonet | Gamma Doppler (Factory New)",
+      "swing_pct": 622.6,
+      "note": "Massive 623% swing but only vol=6 — illiquid, likely phase-variant pricing artifact from the Chinese knife pump; not reliably tradeable."
+    },
+    {
+      "market_hash_name": "Karambit | Doppler (Factory New)",
+      "swing_pct": 619.8,
+      "note": "At 7d low ($13 vs $93.58 max) on vol=14; huge swing reflects the Doppler-tier pump catalyst but liquidity remains shallow for fast exits."
+    }
+  ]
+}

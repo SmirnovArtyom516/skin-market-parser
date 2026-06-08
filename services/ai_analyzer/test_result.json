@@ -1,0 +1,72 @@
+{
+  "market_summary": "Market mood is bullish-volatile, driven by two big catalysts: (1) the IEM Cologne Major Stage 2/3 is in full swing, and (2) a wave of Chinese buyer activity is pumping gloves, knives and case items 30-50%, compounded by a crypto crash (Bitcoin ~$60k) that historically rotates capital into CS2 skins. Most extreme price swings are concentrated in Doppler/Gamma-Doppler knives, which spiked to highs then crashed back near 7-day lows — these now sit at deeply discounted entries while Chinese demand persists. Biggest risk is the souvenir-crafting Valve exploit that obliterated souvenir/collectible values (Glock Candy Apple, R8 Bone Mask etc.), so avoid souvenir and crafted-souvenir items entirely. Liquidity is thin on many top-swing knives (vol<10), so favor names with vol>15 for clean entry/exit.",
+  "top_volatile_skins": [
+    {
+      "market_hash_name": "★ Bayonet | Doppler (Factory New)",
+      "action": "buy",
+      "confidence": 72,
+      "current_vs_range": "at 7d low ($4.09 vs min $4.09 / max $35.09)",
+      "catalyst": "Chinese buyers launching massive pump of Series 1 gloves & knives (+30-50%) + Bitcoin crash rotating capital into CS2 skins",
+      "reasoning": "Sitting exactly at the 7-day minimum after an 758% swing — the most volatile knife in the dataset. With active Chinese knife/glove pumping and a crypto-driven rotation into skins, this is a textbook asymmetric buy: tiny downside to min, huge prior high of $35. Volume 23 is liquid enough to exit fast.",
+      "time_horizon": "short",
+      "potential_roi": 120
+    },
+    {
+      "market_hash_name": "★ Bowie Knife | Doppler (Factory New)",
+      "action": "buy",
+      "confidence": 70,
+      "current_vs_range": "at 7d low ($2.67 vs min $2.67 / max $12.29)",
+      "catalyst": "Chinese-led knife pump (+30-40% on Series 1 items) and reported 30-40% knife rebound over two days",
+      "reasoning": "Pinned at its 7-day low after a 360% swing with the best liquidity among high-swing knives (vol=17). News explicitly cites knives rising 30-40%; entry at the floor offers strong reward-to-risk while demand is hot.",
+      "time_horizon": "short",
+      "potential_roi": 90
+    },
+    {
+      "market_hash_name": "★ Stiletto Knife | Doppler (Factory New)",
+      "action": "buy",
+      "confidence": 68,
+      "current_vs_range": "near 7d low ($4.72 vs min $4.68 / max $20.65)",
+      "catalyst": "Chinese buyers pumping knives/gloves; crypto crash driving skin inflows",
+      "reasoning": "341% swing, currently $0.04 above its low with healthy volume (18). Same Chinese pump catalyst applies to Doppler knives broadly. Liquid enough to scale in and out; prior high near $20 shows the upside ceiling.",
+      "time_horizon": "short",
+      "potential_roi": 85
+    },
+    {
+      "market_hash_name": "★ Ursus Knife | Doppler (Factory New)",
+      "action": "buy",
+      "confidence": 65,
+      "current_vs_range": "near 7d low ($2.71 vs min $2.33 / max $9.63)",
+      "catalyst": "Chinese knife/glove pump and broad knife rebound (+30-40%)",
+      "reasoning": "313% swing, good volume (18), trading near the lower third of its range. Affordable Doppler knife that benefits directly from the cited Chinese demand surge. Risk is contained given low absolute price and a $9.63 prior high.",
+      "time_horizon": "short",
+      "potential_roi": 80
+    },
+    {
+      "market_hash_name": "Glock-18 | Gamma Doppler (Factory New)",
+      "action": "buy",
+      "confidence": 62,
+      "current_vs_range": "near 7d low ($1.87 vs min $1.75 / max $7.44)",
+      "catalyst": "Chinese buyers pumping Gamma Doppler / Series 1 items; market-wide rebound off the bottom",
+      "reasoning": "325% swing with the best liquidity of any high-volatility item here (vol=22 >20 threshold). Gamma Doppler is named in the Chinese-pump narrative. Cheap entry near the low with a prior high of $7.44 makes this a clean, liquid volatility play.",
+      "time_horizon": "short",
+      "potential_roi": 75
+    }
+  ],
+  "volatility_leaders": [
+    {
+      "market_hash_name": "★ Bayonet | Doppler (Factory New)",
+      "swing_pct": 757.9,
+      "note": "Most volatile skin in the set; crashed from $35.09 back to its $4.09 low — prime Chinese-pump rebound candidate."
+    },
+    {
+      "market_hash_name": "★ M9 Bayonet | Gamma Doppler (Factory New)",
+      "swing_pct": 622.6,
+      "note": "Swung from $13.57 to $98.06 but only vol=6 — huge volatility, too illiquid to trade safely."
+    },
+    {
+      "market_hash_name": "★ Karambit | Doppler (Factory New)",
+      "swing_pct": 619.8,
+      "note": "Sits at its 7-day low ($13.00 vs $93.58 high); enormous swing but vol=14 and high ticket size raise execution risk."
+    }
+  ]
+}

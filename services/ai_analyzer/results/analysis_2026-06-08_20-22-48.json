@@ -1,0 +1,72 @@
+{
+  "market_summary": "Market mood is risk-on and recovering: a Bitcoin crash plus renewed Chinese buying pressure have pushed knives, gloves and case-hardened items sharply higher, while the IEM Cologne Major (Spirit & FUT into Stage 3) is the dominant attention driver. The single biggest volatility catalyst is the souvenir-craft exploit that crashed collectible souvenir prices — avoid souvenir collectibles entirely. Doppler-pattern knives show massive 7-day swings; many sit near 7-day LOWS while the Chinese-driven pump narrative is positive, creating asymmetric buy setups in liquid items. Key risks: knife swing% is inflated by phase/pattern price aggregation and thin volume, so liquidity (vol>20) and tight entries matter most.",
+  "volatility_leaders": [
+    {
+      "market_hash_name": "★ Bayonet | Doppler (Factory New)",
+      "swing_pct": 757.9,
+      "note": "Highest swing in the dataset; currently at its $4.09 floor vs $35.09 high. Extreme range driven by Doppler phase aggregation + Chinese knife pump — explosive but illiquid (vol=23 nominal)."
+    },
+    {
+      "market_hash_name": "★ M9 Bayonet | Gamma Doppler (Factory New)",
+      "swing_pct": 622.6,
+      "note": "Collapsed from $98.06 to $13.57 floor; massive volatility but very thin (vol=6) — phase-driven swing, not a clean catalyst trade."
+    },
+    {
+      "market_hash_name": "★ Karambit | Doppler (Factory New)",
+      "swing_pct": 619.8,
+      "note": "At 7-day low $13.00 vs $93.58 high; enormous swing tied to Doppler pattern pricing and the broader Chinese knife pump narrative."
+    }
+  ],
+  "top_volatile_skins": [
+    {
+      "market_hash_name": "★ Stiletto Knife | Doppler (Factory New)",
+      "action": "buy",
+      "confidence": 68,
+      "current_vs_range": "near 7d low ($4.72 vs min $4.68 / max $20.65)",
+      "catalyst": "Chinese-driven knife/glove pump (MrTwister: knives +30-40% over 2 days) plus Bitcoin crash rotating capital into CS2",
+      "reasoning": "Trading right at its 7-day low with strong liquidity (vol=17) while the dominant market narrative is a fresh Chinese buying wave lifting knives. Asymmetric entry: huge 341% swing range means upside room if the pump continues, and downside is limited at the floor.",
+      "time_horizon": "short",
+      "potential_roi": 60
+    },
+    {
+      "market_hash_name": "★ Ursus Knife | Doppler (Factory New)",
+      "action": "buy",
+      "confidence": 65,
+      "current_vs_range": "near 7d low ($2.71 vs min $2.33 / max $9.63)",
+      "catalyst": "Chinese pump of knives across the board + crypto-crash rotation into CS2 skins",
+      "reasoning": "Liquid (vol=18) Doppler knife sitting just above its floor against a $9.63 high. Positive market-wide knife catalyst gives directional confidence; cheap entry with strong reversion potential.",
+      "time_horizon": "short",
+      "potential_roi": 55
+    },
+    {
+      "market_hash_name": "★ Bowie Knife | Doppler (Factory New)",
+      "action": "buy",
+      "confidence": 64,
+      "current_vs_range": "at 7d low ($2.67 vs min $2.67 / max $12.29)",
+      "catalyst": "Market-wide knife/glove pump from Chinese buyers, knives reported +30-40% in 48h",
+      "reasoning": "Sitting exactly at its 7-day minimum with above-threshold liquidity (vol=17). With the pump narrative active and a 360% swing band, this is a clean asymmetric buy at the absolute floor.",
+      "time_horizon": "short",
+      "potential_roi": 50
+    },
+    {
+      "market_hash_name": "★ Bowie Knife | Gamma Doppler (Factory New)",
+      "action": "buy",
+      "confidence": 62,
+      "current_vs_range": "near 7d low ($2.22 vs min $2.15 / max $5.45)",
+      "catalyst": "Chinese knife pump + reported broad market recovery off the bottom",
+      "reasoning": "Most liquid Doppler-class knife in the set (vol=21), trading near its floor while the positive pump catalyst is fresh. High volume means easy entry and exit for a short volatility trade.",
+      "time_horizon": "short",
+      "potential_roi": 45
+    },
+    {
+      "market_hash_name": "★ StatTrak™ Kukri Knife | Case Hardened (Field-Tested)",
+      "action": "sell",
+      "confidence": 60,
+      "current_vs_range": "at 7d high ($3.80 vs min $1.53 / max $3.80)",
+      "catalyst": "Case Hardened items named in Chinese pump, now topped out at the 7-day high with thin volume (vol=5)",
+      "reasoning": "Trading at its exact 7-day maximum after a 148% run; the pump that drove it is already priced in. Low liquidity makes holding at the top risky — take profit / avoid chasing as reversion is likely.",
+      "time_horizon": "short",
+      "potential_roi": -40
+    }
+  ]
+}
